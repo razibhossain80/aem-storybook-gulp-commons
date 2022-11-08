@@ -1,0 +1,16 @@
+// Base
+@import "base/__base-loader";
+
+// Bootstrap 5
+@import "bootstrap/__bootstrap-loader";
+
+// Third party
+@import "thirdparty/__thirdparty-loader";
+
+//global css
+@import "./global";
+
+//components
+@import "components/__components-loader";
+
+

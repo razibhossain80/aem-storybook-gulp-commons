@@ -1,0 +1,31 @@
+<style>
+    #root > div {
+        z-index: 1051 !important;
+    }
+    #root .info__show-button {
+        position: relative;
+        z-index: 1052;
+    }
+
+    #root .info__overlay {
+        z-index: 1053 !important;
+    }
+
+    #root .info__close-button {
+        position: relative;
+        z-index: 1054;
+    }
+
+    [data-site-id="aem-bs-commons-111"], .sb-show-main.sb-main-padded{
+        padding: 0 !important;
+    }
+    
+
+</style>
+
+<script>
+    setTimeout(function(){
+        document.body.setAttribute('data-site-id', 'aem-bs-commons-111');
+    },500)
+</script>
+
