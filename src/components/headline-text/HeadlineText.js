@@ -5,7 +5,7 @@ const HeadlineText = () => {
   return (
     <div className='headline-text cmp'>
         <div className='headline-text__inner'>
-            Headline Text
+            Headline Text test updated
         </div>
     </div>
   )
